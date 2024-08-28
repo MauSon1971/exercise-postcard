@@ -1,0 +1,64 @@
+// <uniquifier>: Use a unique and descriptive class name
+// <weight>: Use a value from 400 to 700
+
+.dancing-script-<uniquifier > {
+	font-family: "Dancing Script", cursive;
+	font-optical-sizing: auto;
+	font-weight: 700;
+	font-style: normal;
+}
+
+body {
+	background: black;
+	font-family: "Dancing Script";
+}
+.postcard {
+	background: white;
+	width: 400px;
+	height: 300px;
+	margin: auto;
+}
+
+.postcard-header {
+	display: flex;
+	align-items: center;
+	padding: 10px;
+}
+
+.postcard-header img {
+	width: 50px;
+	height: 50px;
+}
+
+.postcard-header h1 {
+	width: 100%;
+	margin: 0;
+}
+
+.postcard-body {
+	display: flex;
+}
+
+.body-left p:first-child {
+	margin-top: 0;
+}
+
+.body-left,
+.body-right {
+	padding: 10px;
+}
+
+input {
+	border: 0;
+	border-bottom: 1px grey solid;
+	padding: 7px;
+}
+
+.postcard-footer {
+	text-align: center;
+}
+
+button {
+	background-color: rgb(140, 140, 141);
+	padding: 5px 10px;
+}
